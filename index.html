@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vrajesh Patadiya</title>
+    <link rel="stylesheet" href="css/style.css" />
+    
+    <!-- Add our kite cursor -->
+    <link rel="stylesheet" href="css/kite-cursor.css">
+    <script src="js/kite-cursor.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="js/removeCursor.js" defer></script>
+  </head>
+  <body>
+    <!-- Custom Cursor - These will be removed by removeCursor.js -->
+    <!-- <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div> -->
+    
+    <!-- Navigation -->
+    <nav class="main-nav">
+      <div class="logo">
+        <span class="artist-name">Vrajesh Patadiya</span>
+      </div>
+      <div
+        class="menu-toggle"
+        aria-label="Toggle menu"
+        role="button"
+        tabindex="0"
+      >
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#hero" data-text="Home">Home</a></li>
+        <li><a href="#about" data-text="About">About</a></li>
+        <li><a href="#experience" data-text="Experience">Education</a></li>
+        <li><a href="#portfolio" data-text="Work">My Work</a></li>
+        <li><a href="#contact" data-text="Contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <div class="artist-image-container">
+          <div class="artist-image-wrapper">
+            <img
+              src="assets/images/artist.webp"
+              alt="Vrajesh Patadiya"
+              class="artist-image"
+            />
+          </div>
+          <div class="image-effects">
+            <div class="effect-circle"></div>
+            <div class="effect-circle"></div>
+            <div class="effect-circle"></div>
+          </div>
+        </div>
+        <div class="hero-text">
+          <h1 class="glitch-effect" data-text="Vrajesh Patadiya">
+            Vrajesh Patadiya
+          </h1>
+          <p class="typewriter">
+            Balanced – Creative + Technical
+          </p>
+          <div class="art-categories">
+            <span>Front-end devlopment</span>
+            <span>Back-end devlopment</span>
+            <span>Designing</span>
+          </div>
+          <a href="#portfolio" class="cta-button">Explore My Work</a>
+        </div>
+      </div>
+      <canvas id="hero-canvas"></canvas>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="section-header">
+        <h2>About Me</h2>
+        <div class="brush-stroke"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <p style="text-align: justify">
+            I'm Vrajesh Patadiya, a passionate Web Developer with a strong grasp
+            of HTML, CSS, JavaScript, and responsive design. With hands-on
+            experience from projects like a secure Banking System and an
+            interactive online food delivery site (Omnifood), I specialize in
+            building user-friendly, scalable web solutions. I’ve also developed
+            fun, logic-based games such as Pig Game and Guess the Number to
+            sharpen my JavaScript skills.<br />
+            Beyond development, I bring leadership and collaboration skills from
+            organizing events like Rasotsav and TechFest. Whether it’s front-end
+            design or event execution, I thrive on delivering results that are
+            both functional and engaging. Always curious and driven, I aim to
+            grow as a full-stack developer and contribute to innovative digital
+            experiences.
+          </p>
+        </div>
+        <div class="skills-container">
+          <h3>Skills & Tools</h3>
+          <div class="skills-graph">
+            <div class="skill-item" data-skill="Character Art">
+              <div class="skill-fill" style="width: 85%"></div>
+              <span>HTML</span>
+            </div>
+            <div class="skill-item" data-skill="Background Design">
+              <div class="skill-fill" style="width: 80%"></div>
+              <span>CSS</span>
+            </div>
+            <div class="skill-item" data-skill="Gen_Ai">
+              <div class="skill-fill" style="width: 90%"></div>
+              <span>JS</span>
+            </div>
+            <div class="skill-item" data-skill="Concept Art">
+              <div class="skill-fill" style="width: 70%"></div>
+              <span>Web designing</span>
+            </div>
+            <div class="skill-item" data-skill="Concept Art">
+              <div class="skill-fill" style="width: 60%"></div>
+              <span>PHP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+      <div class="section-header">
+        <h2>Education</h2>
+        <div class="brush-stroke"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>B-Tech</h3>
+            <h4>VVP Engineering college</h4>
+            <span class="date">2023 - 2026</span>
+            <p>
+              Enhanced knowledge in software engineering, data structures,
+              algorithms, and full-stack web development while working on
+              creative learning projects and team-based problem-solving.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Diploma in Information Technology</h3>
+            <h4>Goverment polytechnique</h4>
+            <span class="date">2020 - 2023</span>
+            <p>
+              Focused on building a strong academic foundation in programming,
+              web development, and core IT subjects during my diploma studies.
+              Prioritized learning concepts thoroughly to prepare for advanced
+              technical education.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+      <div class="section-header">
+        <h2>My Work</h2>
+        <div class="brush-stroke"></div>
+      </div>
+      <!-- <div class="portfolio-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="characters">Characters</button>
+        <button class="filter-btn" data-filter="backgrounds">
+          Backgrounds
+        </button>
+        <button class="filter-btn" data-filter="concepts">Concepts</button>
+        <button class="filter-btn" data-filter="icons">Icons</button>
+        <button class="filter-btn" data-filter="animals">Animals</button>
+        <button class="filter-btn" data-filter="meta">Meta</button>
+        <button class="filter-btn" data-filter="food">Food</button>
+        <button class="filter-btn" data-filter="Gen_Ai">Gen AI</button>
+      </div> -->
+      <div class="portfolio-grid">
+        <!-- Portfolio items will be generated by JavaScript -->
+      </div>
+      <div class="portfolio-modal">
+        <div class="modal-content">
+          <span class="close-modal">&times;</span>
+          <div class="modal-image-container">
+            <img src="" alt="" class="modal-image" />
+          </div>
+          <div class="modal-info">
+            <h3 class="modal-title"></h3>
+            <p class="modal-description"></p>
+            <div class="modal-details">
+              <span class="modal-category"></span>
+              <!-- <span class="modal-date"></span> -->
+            </div>
+          </div>
+          <div class="modal-navigation">
+            <button class="modal-prev">Previous</button>
+            <button class="modal-next">Next</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="section-header">
+        <h2>Get In Touch</h2>
+        <div class="brush-stroke"></div>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Let's Create Something Amazing</h3>
+          <p>Interested in working together or have questions about my work?</p>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <span>vrajeshpatadiya027@gmail.com</span>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <span>+91 94085 85860</span>
+          </div>
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/vrajesh-patadiya-375225214/"
+              class="social-icon"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+             <a
+              href="https://github.com/vrajeshz"
+              class="social-icon"
+              ><i class="fab fa-github"></i
+            ></a>
+             <a
+              href="https://leetcode.com/u/vrajeshPatadiya/"
+              class="social-icon"
+              ><img src="assets/images/leetcode.svg"></a>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" />
+            <div class="input-animation"></div>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" />
+            <div class="input-animation"></div>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" placeholder="Subject" />
+            <div class="input-animation"></div>
+          </div>
+          <div class="form-group">
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <div class="input-animation"></div>
+          </div>
+          <button type="submit" class="submit-btn">
+            <span>Send Message</span>
+            <div class="btn-animation"></div>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="footer-content">
+        <p>
+          &copy; Designed by Nakul Maniar & Devloped by Vrajesh Patadiya All
+          Rights Reserved.
+        </p>
+      </div>
+      <!-- <div class="footer-content">
+        <p>
+          &copy; Designed by Vrajesh Patadiya & Devloped by
+          <a href="https://www.linkedin.com/in/nimesh-kadecha/" id="CreditNims"
+            >Nimesh Kadecha</a
+          <a href="https://www.linkedin.com/in/nimesh-kadecha/" id="CreditNims"
+            >Nimesh Kadecha</a>
+          >
+          All Rights Reserved.>
+        </p>
+      </div> -->pts -->
+    </footer>    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+ps://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <!-- Scripts -->pt>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>pt>
+    <script src="js/cursor.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/portfolio.js"></script>    <script src="js/main.js"></script>  
+
+    
+  </body>
+</html>

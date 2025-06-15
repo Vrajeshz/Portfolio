@@ -1,0 +1,40 @@
+body {
+  cursor: none; /* Hide the default cursor */
+}
+
+.kite-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: #64ffda;
+  pointer-events: none;
+  z-index: 9999;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%); /* Triangle shape pointing up */
+  transform-origin: center;
+}
+
+/* Add string/tail effect */
+.kite-cursor::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  background-color: rgba(100, 255, 218, 0.7);
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.kite-cursor::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 1px;
+  background-color: rgba(100, 255, 218, 0.4);
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+  left: 50%;
+  transform: translateX(-50%) rotate(-45deg);
+}
