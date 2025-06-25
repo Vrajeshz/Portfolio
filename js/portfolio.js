@@ -2,6 +2,23 @@
 const portfolioItems = [
   {
     id: 1,
+    title: "🗺️ Mapty – Workout Tracker with Geolocation",
+    description: `A location-based web app that allows users to log running and cycling workouts directly on an interactive map. Combines real-world coordinates with user inputs for a seamless fitness tracking experience.
+Features Implemented:
+• Geolocation to detect user’s current position
+• Interactive map to log workouts by clicking
+• Support for both running and cycling entries
+• Dynamic form handling with validation
+• Workout markers and details saved visually
+• Auto focus on workout location on click`,
+    thumbnail: "assets/portfolio/thumbnails/Mapty.jpg",
+    image: "assets/portfolio/Mapty.jpg",
+    ViewLive: "http://vrajeshz.github.io/Mapty/",
+    technologyTag: "HTML, CSS, JavaScript (OOP, Leaflet.js, localStorage)",
+    category: "websites",
+  },
+  {
+    id: 2,
     title: "💼 Bankist Web – Smooth Banking UI Experience",
     description: `A sleek, modern banking front-end project focused on delivering a professional UI/UX. This single-page interface demonstrates advanced JavaScript concepts like lazy loading, smooth scrolling, sticky navigation, modal windows, and tabbed components.
       Highlights:
@@ -17,7 +34,7 @@ const portfolioItems = [
     category: "websites",
   },
   {
-    id: 2,
+    id: 3,
     title: "🍽 Omnifood – Smart Food Delivery Website",
     description: `A responsive, modern website for a fictional AI-powered food delivery service. Designed using clean layout principles and mobile-first workflow, it ensures a seamless experience on all screen sizes.
 Features Implemented:
@@ -33,7 +50,7 @@ Features Implemented:
     category: "websites",
   },
   {
-    id: 3,
+    id: 4,
     title: "🏦 Bankist – Functional Banking Web App",
     description: `A fully functional banking web application where users can securely manage their accounts. This project simulates real-world banking operations with a clean, interactive design.
 Features Implemented:
@@ -51,7 +68,7 @@ Features Implemented:
     category: "websites",
   },
   {
-    id: 4,
+    id: 5,
     title: "🎲 Greedy Game – Two Player Dice Challenge",
     description: `A fun, turn-based dice game where two players compete to reach 100 points. Players roll the dice to build their score but risk losing their turn if they roll a 1. Strategic use of the "Hold" button adds a layer of decision-making to the gameplay.
 Features Implemented:
@@ -67,7 +84,7 @@ Features Implemented:
     category: "websites",
   },
   {
-    id: 5,
+    id: 6,
     title: "🔢 Guess the Number – Interactive Number Game",
     description: `A fun single-player game where the player guesses a randomly generated number between 1 and 20. After each guess, real-time feedback guides the player closer to the correct number. The game includes scoring and a high score tracker to encourage replayability.
 Features Implemented:
